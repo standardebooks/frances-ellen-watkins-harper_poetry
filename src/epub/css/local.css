@@ -31,7 +31,8 @@ section{
 
 /* Epigraphs in section headers */
 article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"]{
+section > header [epub|type~="epigraph"],
+div > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
@@ -39,13 +40,19 @@ section > header [epub|type~="epigraph"]{
 }
 
 article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *{
+section > header [epub|type~="epigraph"] + *,
+div > header [epub|type~="epigraph"] + *{
 	margin-top: 3em;
+}
+
+div > header [epub|type~="epigraph"]{
+	margin-bottom: 1em;
 }
 
 @supports(display: table){
 	article > header [epub|type~="epigraph"],
-	section > header [epub|type~="epigraph"]{
+	section > header [epub|type~="epigraph"],
+	div > header [epub|type~="epigraph"]{
 		display: table;
 	}
 }
@@ -134,7 +141,8 @@ p span.i14{
 }
 /* End verse */
 
-#moses header p{
+#moses header p,
+#i-thirst header p:first-child{
 	font-variant: small-caps;
 	margin: 1em;
 	text-align: center;
