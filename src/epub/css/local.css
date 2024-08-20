@@ -13,7 +13,6 @@ section{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -31,18 +30,11 @@ section{
 
 /* Epigraphs in section headers */
 article > header [epub|type~="epigraph"],
-section > header [epub|type~="epigraph"],
 div > header [epub|type~="epigraph"]{
 	display: inline-block;
 	margin: auto;
 	max-width: 80%;
 	text-align: initial;
-}
-
-article > header [epub|type~="epigraph"] + *,
-section > header [epub|type~="epigraph"] + *,
-div > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
 }
 
 div > header [epub|type~="epigraph"]{
@@ -51,7 +43,6 @@ div > header [epub|type~="epigraph"]{
 
 @supports(display: table){
 	article > header [epub|type~="epigraph"],
-	section > header [epub|type~="epigraph"],
 	div > header [epub|type~="epigraph"]{
 		display: table;
 	}
@@ -67,14 +58,7 @@ div > header [epub|type~="epigraph"]{
 	text-indent: 0;
 }
 
-[epub|type~="bridgehead"] i{
-	font-style: normal;
-}
-
-[epub|type~="z3998:hymn"] [epub|type~="bridgehead"],
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"],
-[epub|type~="z3998:song"] [epub|type~="bridgehead"],
-[epub|type~="z3998:verse"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
 	text-align: justify;
 }
 /* End bridgeheads */
@@ -133,10 +117,7 @@ p span.i14{
 	vertical-align: 100%;
 }
 
-[epub|type~="z3998:hymn"] hgroup p,
-[epub|type~="z3998:poem"] hgroup p,
-[epub|type~="z3998:song"] hgroup p,
-[epub|type~="z3998:verse"] hgroup p{
+[epub|type~="z3998:poem"] hgroup p{
 	text-align: center;
 }
 /* End verse */
