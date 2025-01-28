@@ -77,7 +77,7 @@
 		<!--Behold the Lilies, p. 468-->
 		<dc:source>https://archive.org/details/ame-church-review-1900-04</dc:source>
 		<meta property="se:production-notes">"A Fairer Hope, a Brighter Morn" from "Light Beyond the Darkness" is cleared because although it lacks a print date, it was published by Donohue and Henneberry, which is known to have changed its name to M. A. Donohue and Co in 1901; therefore the poems were published before that date.</meta>
-		<meta property="se:word-count">41452</meta>
+		<meta property="se:word-count">41453</meta>
 		<meta property="se:reading-ease.flesch">72.9</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/frances-ellen-watkins-harper_poetry</meta>
 		<dc:creator id="author">Frances Ellen Watkins Harper</dc:creator>
