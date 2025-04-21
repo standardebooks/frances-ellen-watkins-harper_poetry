@@ -35,6 +35,7 @@
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008117047</meta>
 		<meta property="se:subject">Poetry</meta>
+		<meta property="se:is-a-collection">true</meta>
 		<dc:description id="description">A collection of poems by Frances Ellen Watkins Harper.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Born a free woman of color in Baltimore in 1825, &lt;a href="https://standardebooks.org/ebooks/frances-ellen-watkins-harper"&gt;Frances Ellen Watkins Harper&lt;/a&gt; was an abolitionist poet active in the 19th and early 20th centuries. As a traveling lecturer for the American Anti-Slavery Society, Harper agitated for the emancipation of enslaved people before the American Civil War and afterwards worked in the South as a teacher during Reconstruction. The contents of many of her poems, like “Bury Me in a Free Land,” reflect her advocacy of abolition. Other prominent themes that appear in Harper’s work, especially in later periods of her career, include retellings of Biblical narratives and the temperance movement.&lt;/p&gt;
