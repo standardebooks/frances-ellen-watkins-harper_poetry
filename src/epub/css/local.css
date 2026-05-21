@@ -50,7 +50,7 @@ div > header [epub|type~="epigraph"]{
 /* End epigraphs in section headers */
 
 /* Bridgeheads */
-[epub|type~="bridgehead"]{
+[epub|type~="se:bridgehead"]{
 	display: inline-block;
 	font-style: italic;
 	max-width: 60%;
@@ -58,7 +58,7 @@ div > header [epub|type~="epigraph"]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] [epub|type~="bridgehead"]{
+[epub|type~="z3998:poem"] [epub|type~="se:bridgehead"]{
 	text-align: justify;
 }
 /* End bridgeheads */
