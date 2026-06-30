@@ -1,0 +1,1 @@
+"A Fairer Hope, a Brighter Morn" from "Light Beyond the Darkness" is cleared because although it lacks a print date, it was published by Donohue and Henneberry, which is known to have changed its name to M. A. Donohue and Co in 1901; therefore the poems were published before that date.
